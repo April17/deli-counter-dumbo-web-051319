@@ -18,4 +18,4 @@ def take_a_number(array,name)
   puts "Welcome, #{name}. You are number #{array.index(name)+1} in line."
   return array
 end
-def now_serving
+def now_serving (array)
