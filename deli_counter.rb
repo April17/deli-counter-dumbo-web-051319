@@ -13,7 +13,7 @@ def line(array)
     puts "The line is currently:#{string}"
   end
 end
-def take_a_number(array,name)
-  array << name
-  puts "Welcom, #{name}. You are number #{array.index(name)+1} in line."
+def take_a_number(katz_deli,name)
+  katz_deli << name
+  puts "Welcom, #{name}. You are number #{katz_deli.index(name)+1} in line."
 end
