@@ -6,8 +6,8 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each_with_index.map do |name, index|
-      ary[index] = "#{index+1}. #{name} "
-      string = string + ary[index]
+      ary[index] = "#{index+1}. #{name}"
+      string = string + " " +ary[index]
     end
     puts "The line is currently: #{string}"
   end
