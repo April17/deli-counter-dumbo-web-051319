@@ -9,6 +9,6 @@ def line(array)
       ary[index] = "#{index+1}. #{name} "
       string = string + ary[index]
     end
-    puts "The line is currently: #{ary}"
+    puts "The line is currently: #{string}"
   end
 end
