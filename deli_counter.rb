@@ -15,8 +15,6 @@ def line(array)
 end
 def take_a_number(array,name)
   array.push(name)
-  puts array
-  binding.pry
   puts "Welcom, #{name}. You are number #{array.index(name)+1} in line."
   return array
 end
