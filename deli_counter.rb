@@ -1,5 +1,4 @@
 # Write your code here.
-
 def line(array)
   ary = []
   string = ""
@@ -14,7 +13,7 @@ def line(array)
   end
 end
 def take_a_number(array,name)
-  ary.push(name)
-  puts "Welcom, #{name}. You are number #{ary.index(name)+1} in line."
-  return ary
+  array.push(name)
+  puts "Welcom, #{name}. You are number #{array.index(name)+1} in line."
+  return array
 end
